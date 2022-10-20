@@ -8,7 +8,6 @@ const CallRoomModal = ({ setIsOpen }) => {
         return (
             <>
             <div>
-              
             </div>
             <div className={styles.darkBG} onClick={() => setIsOpen(false)} />
             <div className={styles.centered}>

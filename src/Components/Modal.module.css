@@ -26,10 +26,13 @@
     z-index: 10;
     box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
   }
+
+
+
   
   .modalHeader {
     height: 50px;
-    background: #2c3e50;
+    background: #72A0C1;
     overflow: hidden;
     color:white;
     /* border-top-left-radius: 16px;
@@ -78,7 +81,7 @@
     border-radius: 8px;
     border: none;
     font-size: 18px;
-    color: #2c3e50;
+    color: #72A0C1;
     background: white;
     transition: all 0.25s ease;
     box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.06);
@@ -101,18 +104,18 @@
     font-weight: 500;
     padding: 11px 28px;
     border-radius: 12px;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     border: none;
     color: #fff;
-    background: #2c3e50;
+    background: #72A0C1;
     transition: all 0.25s ease;
     margin-left: 10px;
   }
   
   .slots:hover {
-    box-shadow: 0 10px 20px -10px #2c3e50;
+    box-shadow: 0 10px 20px -10px #72A0C1;
     transform: translateY(-5px);
-    background: #2c3e50;
+    background: #72A0C1;
   }
   
   .cancelBtn {
@@ -122,8 +125,8 @@
     padding: 11px 28px;
     border-radius: 12px;
     font-size: 0.8rem;
-    border: 0.5px solid #2c3e50;
-    color: #2c3e50;
+    border: 0.5px solid #72A0C1;
+    color: #72A0C1;
     background: #fcfcfc;
     transition: all 0.25s ease;
 
@@ -158,7 +161,7 @@
     display: inline-block;
     border: none;
     text-align: left;
-    box-shadow: 3px 2px #2c3e50;
+    box-shadow: 3px 2px #72A0C1;
     padding: 10px;
     width: 350px;
     margin: 10px 0;
