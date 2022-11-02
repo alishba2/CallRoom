@@ -43,38 +43,51 @@
 
 }
 
-.Card_style h1{
+.Card_style span{
   font-family: 'Courier New', Courier, monospace;
-  text-align: center;
   font-weight: bolder;
-  color:white;
+  color:  #72A0C1;
+  font-size: 3vh;
+  letter-spacing: -1;
+  padding-left: 10px;
+ 
+
+  
+
+
+}
+.Card_style span hr{
+  width: 100%;
 }
 .Card_style h2{
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Roboto, sans-serif;
   text-align: left;
-  color: white;
-  font-size: x-large;
+  color:  #72A0C1;
+  font-size: 3vh;
+  padding-left: 10px;
+ 
 }
 .Display-style{
   display: grid;
   grid-template-columns: repeat(3, 1fr) ;
   grid-gap: 3%;
   padding: 20px;
-  height: 250vh;
+  height: 230vh;
   margin:5%;
+
 }
 .Card_style{
-  max-width: 50vw;
-  max-height: 50vh;
-  padding: 10%;
-background: #72A0C1;
+  max-width: 40vw;
+  max-height: 40vh;
+  padding-top: 10px;
+
+
+background: white;
 color: #474747;
-border-radius: 8px;
 position: relative;
-z-index: 1;
+z-index: -1;
 overflow: hidden;
--webkit-filter: drop-shadow(0 5px 15px rgba(0,0,0,.24));
-filter: drop-shadow(0 5px 15px rgba(0,0,0,.24));
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
 }
 

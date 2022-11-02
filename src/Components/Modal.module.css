@@ -3,6 +3,7 @@
    
     width: 100vw;
     height: 100vh;
+    position: absolute;
     z-index: 0;
     top: 50%;
     left: 50%;
@@ -23,7 +24,7 @@
     width: 700px;
     height: 400px;
     background: white;
-    z-index: 10;
+    /* z-index: 10; */
     box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
   }
 
@@ -47,14 +48,13 @@
     font-size: 18px;
     text-align: center;
   }
-  
+
   .modalContent {
     padding: 10px;
     font-size: 20px;
     color: #2c3e50;
     padding-left: 30px;
     background-color: rgba(0, 0, 0, 0.2);
-
   }
   .modalText{
     display: block;
@@ -193,4 +193,11 @@
 
   .formSubmit{
     margin-left: 30px;
+  }
+  .display-block {
+    display: block;
+  }
+  
+  .display-none {
+    display: none;
   }

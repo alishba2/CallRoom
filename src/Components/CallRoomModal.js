@@ -3,19 +3,20 @@ import { RiCloseLine } from "react-icons/ri";
 import styles from "./Modal.module.css";
 
 
-const CallRoomModal = ({ setIsOpen }) => {
-    
-        return (
+const CallRoomModal = ({ onHide, show, children }) => {
+  const showHideClassName = show ? "darkBG display-block" : "darkBG display-none";
+  console.log(show);
+   return (
             <>
-            <div>
-            </div>
-            <div className={styles.darkBG} onClick={() => setIsOpen(false)} />
+            <div className={showHideClassName}>
+         
+            <div className={styles.darkBG}  />
             <div className={styles.centered}>
               <div className={styles.modal}>
                 <div className={styles.modalHeader}>
                   <h5 className={styles.heading}>Dialog</h5>
                 </div>
-                <button className={styles.closeBtn} onClick={() => setIsOpen(false)}>
+                <button className={styles.closeBtn} onClick={() => onHide(true)}>
                   <RiCloseLine style={{ marginBottom: "-3px" }} />
                 </button>
                 <div className={styles.modalContent}>
@@ -32,7 +33,7 @@ const CallRoomModal = ({ setIsOpen }) => {
                 
               </div>
             </div>
-            
+            </div>
           </>
         );
   //       return(<>
